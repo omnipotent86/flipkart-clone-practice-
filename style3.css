@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    height: 200vh;
+}
+.box-container{
+    color: black;
+    height: 100vh;
+    background-color: bisque;
+}
+.box{
+    display: inline-block;
+    color: white;
+    background-color: blue;
+    /* width:100px ;
+    height:100px ; */
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding : 50px
+}
+#b1{
+    position: sticky;
+    top: 20px;
+    left: 40px;
+}
+#b2{
+    position: fixed;
+    top: 20px;
+    right: 40px;
+}
+.page2{
+    background-color: black;
+    color: white;
+    height: 100vh;
+}

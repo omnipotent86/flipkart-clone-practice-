@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 200vh;
+    background-color: white ;
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    width: 1000px;
+}
+.for-ad{
+    margin-top: 150px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.header button{
+    border-radius: 5px;
+    border: 1px solid yellow;
+    background-color: yellow;
+    padding : 10px;
+}
+.fix-part{
+    position: fixed;
+    width: 1010px;
+    background-color: white;
+    z-index: 1000;
+}
+#locator{
+    display: flex;
+}
+.nav{
+    display: flex; 
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+.search{
+    display: flex;
+}
+#ser{
+    width: 700px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.detail{
+    display: flex;
+    justify-content: space-evenly;
+}
+.detail button{
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: white;
+    padding : 10px;
+    font-size: 15px;
+}
+.pro-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+}
+.ads{
+    display: flex;
+    overflow:hidden;
+    overflow-x: scroll;
+}
+.ad-img{
+    margin: 5px;
+    border-radius: 10px;
+}
+.pop-pick{
+    border: 1px solid black;
+    background-image: url(pop-bg.png);
+    height: 300px;
+    width: 1000px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.pop-sec{
+    background-color: white;
+    height:250px ;
+    width: 975px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pops{
+    text-align: center;
+    margin: 5px;
+    width: 200px;
+    padding-top: 3px;
+    border-radius: 10px;
+}
+#pop-img{
+    border-radius: 10px;
+}
+.footer{
+    background-color: #172337;
+    color: white;
+    margin-top: 20px;
+    padding: 30px 20px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section{
+    margin: 10px;
+}
+
+.footer-section h3{
+    color: #878787;
+    margin-bottom: 10px;
+}
+
+.footer-section p{
+    margin: 6px 0;
+    cursor: pointer;
+}
+
+.footer-section p:hover{
+    text-decoration: underline;
+}
